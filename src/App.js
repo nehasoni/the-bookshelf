@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './images/book.gif';
 import './App.css';
+import SearchBox from './components/filters.js'
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
           <h2>The BookShelf</h2>
         </div>
         <p className="App-intro">
-
+          <SearchBox />
         </p>
       </div>
     );
