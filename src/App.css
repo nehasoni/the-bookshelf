@@ -13,8 +13,8 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.cards-container {
+  padding: 20px;
 }
 
 @keyframes App-logo-spin {
